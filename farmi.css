@@ -1,0 +1,13 @@
+h1{
+    
+    text-align: center;
+   color: #e4edeb;
+   font-style:italic;
+    }
+#farmer  {
+    background-color: #52b69a;
+color: whitesmoke;
+border-color:#52b69a;
+cursor: pointer;
+border-radius: 0%;
+}
