@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
-
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="container">
-    <h1>login form</h1>
-    <form>
-<label for="username">username:</label>
-<input type="text" name="username " placeholder="enter your name">
-<label for="password">password</label>
-<input type="password" name="password" placeholder="enter your name">
-<div class="check">
-<input type="checkbox" name="remember">
-<label for="remember">remember</label>
+    <div class="container">
+        <h1>Login Form</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required>
 
-</div>
-<input type="submit" value="login">
-  
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-    </form>
+            <div class="check">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+            </div>
 
-
-
-
-
-   </div>
+            <input type="submit" value="Login" class="submit-button">
+        </form>
+    </div>
+</body>
 </html>
